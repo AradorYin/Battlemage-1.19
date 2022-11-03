@@ -1,5 +1,6 @@
 package net.aradoryin.battlemage;
 
+import net.aradoryin.battlemage.block.ModBlocks;
 import net.aradoryin.battlemage.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,7 @@ public class Battlemage
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		
 		ModItems.register(modEventBus);
+		ModBlocks.register(modEventBus);
 		
 		modEventBus.addListener(this::commonSetup);
 		

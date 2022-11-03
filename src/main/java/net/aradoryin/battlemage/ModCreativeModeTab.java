@@ -1,5 +1,6 @@
-package net.aradoryin.battlemage.item;
+package net.aradoryin.battlemage;
 
+import net.aradoryin.battlemage.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
@@ -10,7 +11,7 @@ public class ModCreativeModeTab
 		@Override
 		public ItemStack makeIcon()
 		{
-			return new ItemStack(ModItems.TEST.get());
+			return new ItemStack(ModItems.TEST_INGOT.get());
 		}
 	};
 }
