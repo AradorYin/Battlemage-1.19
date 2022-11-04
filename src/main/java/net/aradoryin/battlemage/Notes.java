@@ -109,8 +109,8 @@ public class Notes
     2. Some entities roaming about appear to have some kind of resistance to some elements.
     3. Some elements seem to have status debuffs or buffs. I wonder if I can stack these to multiply the damage done
         to mine enemies?
-    4. I might be able to make more Elemental Sigils using a magical apparatus. I wonder what uses these Elemental
-        Sigils are there.
+    4. I might be able to make more Elemental Sigils using a magical apparatus. I wonder what other uses these Elemental
+        Sigils have.
     5.
 Ice Powder -> AugmentType.CONTROL
 Gold Powder -> AugmentType.MASTERY
@@ -179,6 +179,6 @@ Iron Powder -> AugmentType.DESTRUCTION
         "SSS" : "S: Magic-Infused Stone"
         "SSS" : "S: Magic-Infused Stone"
         "SSS" : "S: Magic-Infused Stone"
-    2.
+    2. There is a magical apparatus that I might be able to create. It seems that this is a multilayered device with each level performing different crafting. The first level seems to be useful for creating these Elemental Sigils. The second layer seems to be some kind of gem station. It seems to be able chip away at the gem placed in it and that it is also able to engrave these Elemental Sigils.  This third later seems the most interesting out of all three. There seems to be some kind of physicality to it instead of this corporeal-ethereal shenanigans. Maybe there is something that needs to be placed on here? There is like a curve underneath this layer. Maybe I need to place the Elemental Sigil there to engrave the gem? Or maybe if I leave it empty that it'll be some way that I can add spells to the gem?
      */
 }
