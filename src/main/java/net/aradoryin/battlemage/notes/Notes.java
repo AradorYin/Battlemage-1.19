@@ -74,7 +74,7 @@ public class Notes
         orange color, the fungus can be broken to obtain a random spell base ingredient.
     2.
     Synthesizing:
-    1.
+    1. There seems to be many different options when I try to synthesize spells, both during and after. I could add the gem powders I acquired from pulverizing them to somehow augment the spell in different ways. However, there are some things that I cannot keep from the spell creation process. These things - Spell Base, Elemental Sigil - seem almost mandatory, but everything else is optional. I could add Ice Powder as a means of influencing the control aspect of spells, Copper Powder for mastery, and Gold Powder for destruction.
 
 	 When synthesizing, try to synthesize three items of the same rarity type, and of the same subtype. Example: If you
 	 synthesize 3x Control Augment (common rarity), you can get either an Uncommon Shape (random) or an Uncommon Control
