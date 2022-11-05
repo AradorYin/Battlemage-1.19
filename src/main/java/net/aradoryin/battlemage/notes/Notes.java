@@ -16,10 +16,10 @@ public class Notes
     3. Diamond -> Longer lasting AugmentType.CONTROL spells
     4. Emerald -> Longer lasting AugmentType.MASTERY spells
     5. Onyx -> Longer lasting AugmentType.INTENSITY spells
-    6. Quartz -> Harder hitting AugmentType.CONTROL spells
-    7. Ruby -> Harder hitting AugmentType.INTENSITY spells
-    8. Sapphire -> More focused AugmentType.CONTROL spells
-    9. Tiger's Eye -> More focused AugmentType.INTENSITY spells
+    6. Opal -> More focused AugmentType.INTENSITY spells
+    7. Quartz -> Harder hitting AugmentType.CONTROL spells
+    8. Ruby -> Harder hitting AugmentType.INTENSITY spells
+    9. Sapphire -> More focused AugmentType.CONTROL spells
     Elements:
     1. Corruption -> Mastery
     2. Delirium -> Mastery
