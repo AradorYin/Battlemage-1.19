@@ -74,16 +74,11 @@ public class Notes
         orange color, the fungus can be broken to obtain a random spell base ingredient.
     2.
     Synthesizing:
-    1. There seems to be many different options when I try to synthesize spells, both during and after. I could add the gem powders I acquired from pulverizing them to somehow augment the spell in different ways. However, there are some things that I cannot keep from the spell creation process. These things - Spell Base, Elemental Sigil - seem almost mandatory, but everything else is optional. I could add Ice Powder as a means of influencing the control aspect of spells, Copper Powder for mastery, and Gold Powder for destruction.
-
-
-    Quality Chances:
-    1. Trash -> 0EO-100%|1EO-75%|2EO-50%|3EO-25%|4EO-0%|5EO-0%|6EO-0%|7EO-0%|8EO-0%|9EO-0%
-    2. Common -> 0EO-0%|1EO-20%|2EO-30%|3EO-40%|4EO-30%|5EO-20%|6EO-10%|7EO-5%|8EO-3%|9EO-0%
-    3. Uncommon -> 0EO-0%|1EO-5%|2EO-15%|3EO-25%|4EO-35%|5EO-40%|6EO-30%|7EO-20%|8EO-10%|9EO-0%
-    4. Rare -> 0EO-0%|1EO-0%|2EO-5%|3EO-10%|4EO-20%|5EO-25%|6EO-40%|7EO-50%|8EO-37%|9EO-10%
-    5. Epic -> 0EO-0%|1EO-0%|2EO-0%|3EO-5%|4EO-15%|5EO-15%|6EO-20%|7EO-25%|8EO-50%|9EO-70%
-    6. Legendary -> 0EO-0%|1EO-0%|2EO-0%|3EO-0%|4EO-0%|5EO-0%|6EO-0%|7EO-0%|8EO-0%|9EO-20%
+    1. There seems to be many options when I try to synthesize spells, both during and after. I could add the gem
+        powders I acquired from pulverizing them to somehow augment the spell in different ways. However, there are
+        some things that I cannot keep from the spell creation process. These things - Spell Base, Elemental Sigil -
+        seem almost mandatory, but everything else is optional. I could add Ice Powder as a means of influencing the
+        control aspect of spells, Copper Powder for mastery, and Gold Powder for destruction.
 
 	 When synthesizing, try to synthesize three items of the same rarity type, and of the same subtype. Example: If you
 	 synthesize 3x Control Augment (common rarity), you can get either an Uncommon Shape (random) or an Uncommon Control
