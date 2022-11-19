@@ -73,6 +73,18 @@ public class Notes
     1. Pustule Fungus -> Parasitic fungus usually found on trees. Once the pustule enlarges and starts glowing a faint
         orange color, the fungus can be broken to obtain a random spell base ingredient.
     2.
+    Mobs:
+    1. Unnamed Humans
+        1. Akin to randomly roaming barbarians to clumsy to even learn how to reason properly. Only useful in fighting and getting mob drops.
+        2. Sounds: Vindicator-branching sounds
+        3. Appearance: rags/random bits of armor
+    3. Named Humans
+    4. Regular Beasts
+    5. Plagued Beasts
+    6. Unnamed Spirits
+    7. Named Spirits
+    8. Unnamed Undead
+    9. Named Undead
     Synthesizing:
     1. There seems to be many options when I try to synthesize spells, both during and after. I could add the gem
         powders I acquired from pulverizing them to somehow augment the spell in different ways. However, there are
