@@ -23,17 +23,17 @@ public class ModBlocks
 	/* Gems: DropExperienceBlock */
 	
 	//BLOCKS
-	public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block", 
+	public static final RegistryObject<Block> WIP_BLOCK = registerBlock("wip_block",
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
 					.strength(6f)
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
 	
 	//ORES | DEEPSLATE ORES
-	public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore", 
+	public static final RegistryObject<Block> WIP_ORE = registerBlock("wip_ore",
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
 					.strength(6f)
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
-	public static final RegistryObject<Block> DEEPSLATE_TEST_ORE = registerBlock("deepslate_test_ore", 
+	public static final RegistryObject<Block> WIP_ORE_DEEPSLATE = registerBlock("wip_ore_deepslate",
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
 					.strength(6f)
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);

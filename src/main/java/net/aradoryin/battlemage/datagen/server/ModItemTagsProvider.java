@@ -21,11 +21,11 @@ public class ModItemTagsProvider extends ItemTagsProvider
     protected void addTags()
     {
         tag(Tags.Items.INGOTS)
-                .add(ModItems.TEST_INGOT.get());
+                .add(ModItems.WIP_INGOT.get());
         tag(Tags.Items.ORES)
-                .add(ModBlocks.TEST_ORE.get().asItem())
-                .add(ModBlocks.DEEPSLATE_TEST_ORE.get().asItem());
+                .add(ModBlocks.WIP_ORE.get().asItem())
+                .add(ModBlocks.WIP_ORE_DEEPSLATE.get().asItem());
         tag(Tags.Items.STORAGE_BLOCKS)
-                .add(ModBlocks.TEST_BLOCK.get().asItem());
+                .add(ModBlocks.WIP_BLOCK.get().asItem());
     }
 }

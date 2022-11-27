@@ -11,7 +11,7 @@ public class ModCreativeModeTab
 		@Override
 		public ItemStack makeIcon()
 		{
-			return new ItemStack(ModItems.TEST_INGOT.get());
+			return new ItemStack(ModItems.WIP_INGOT.get());
 		}
 	};
 }

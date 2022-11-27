@@ -20,17 +20,17 @@ public class ModBlockTagsProvider extends BlockTagsProvider
     protected void addTags()
     {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.TEST_BLOCK.get())
-                .add(ModBlocks.TEST_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TEST_ORE.get());
+                .add(ModBlocks.WIP_BLOCK.get())
+                .add(ModBlocks.WIP_ORE.get())
+                .add(ModBlocks.WIP_ORE_DEEPSLATE.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.TEST_BLOCK.get())
-                .add(ModBlocks.TEST_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TEST_ORE.get());
+                .add(ModBlocks.WIP_BLOCK.get())
+                .add(ModBlocks.WIP_ORE.get())
+                .add(ModBlocks.WIP_ORE_DEEPSLATE.get());
         tag(Tags.Blocks.ORES)
-                .add(ModBlocks.TEST_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TEST_ORE.get());
+                .add(ModBlocks.WIP_ORE.get())
+                .add(ModBlocks.WIP_ORE_DEEPSLATE.get());
         tag(Tags.Blocks.STORAGE_BLOCKS)
-                .add(ModBlocks.TEST_BLOCK.get());
+                .add(ModBlocks.WIP_BLOCK.get());
     }
 }

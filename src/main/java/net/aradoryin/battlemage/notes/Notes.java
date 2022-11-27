@@ -75,7 +75,8 @@ public class Notes
     2.
     Mobs:
     1. Unnamed Humans
-        1. Akin to randomly roaming barbarians to clumsy to even learn how to reason properly. Only useful in fighting and getting mob drops.
+        1. Akin to randomly roaming barbarians too clumsy to even learn how to reason properly. Only useful in fighting
+         and getting mob drops.
         2. Sounds: Vindicator-branching sounds
         3. Appearance: rags/random bits of armor
     3. Named Humans

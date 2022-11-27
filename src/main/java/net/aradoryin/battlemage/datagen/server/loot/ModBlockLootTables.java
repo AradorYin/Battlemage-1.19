@@ -11,11 +11,11 @@ public class ModBlockLootTables extends BlockLoot
     @Override
     protected void addTables()
     {
-        this.dropSelf(ModBlocks.TEST_BLOCK.get());
-        this.add(ModBlocks.TEST_ORE.get(),
-                (block -> createOreDrop(ModBlocks.TEST_ORE.get(), ModItems.TEST_INGOT.get())));
-        this.add(ModBlocks.DEEPSLATE_TEST_ORE.get(),
-                (block -> createOreDrop(ModBlocks.DEEPSLATE_TEST_ORE.get(), ModItems.TEST_INGOT.get())));
+        this.dropSelf(ModBlocks.WIP_BLOCK.get());
+        this.add(ModBlocks.WIP_ORE.get(),
+                (block -> createOreDrop(ModBlocks.WIP_ORE.get(), ModItems.WIP_RAW.get())));
+        this.add(ModBlocks.WIP_ORE_DEEPSLATE.get(),
+                (block -> createOreDrop(ModBlocks.WIP_ORE_DEEPSLATE.get(), ModItems.WIP_RAW.get())));
     }
 
     @Override
