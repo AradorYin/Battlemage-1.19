@@ -43,38 +43,38 @@ public class ModRecipeProvider extends RecipeProvider
 
         //Smelting Recipes
         SimpleCookingRecipeBuilder.smelting(
-                Ingredient.of(ModBlocks.WIP_ORE.get()),
+                Ingredient.of(ModBlocks.ORE_WIP.get()),
                 ModItems.WIP_INGOT.get(),
                 2f, 200)
                 .unlockedBy("has_wip_ore", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModBlocks.WIP_ORE.get()).build()))
+                        .of(ModBlocks.ORE_WIP.get()).build()))
                 .save(recipeConsumer,
-                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.WIP_ORE.getId().getPath() + "_smelting"));
+                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.ORE_WIP.getId().getPath() + "_smelting"));
         SimpleCookingRecipeBuilder.smelting(
-                Ingredient.of(ModBlocks.WIP_ORE_DEEPSLATE.get()),
+                Ingredient.of(ModBlocks.ORE_WIP_DEEPSLATE.get()),
                 ModItems.WIP_INGOT.get(),
                 2f, 200)
                 .unlockedBy("has_wip_ore_deepslate", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModBlocks.WIP_ORE_DEEPSLATE.get()).build()))
+                        .of(ModBlocks.ORE_WIP_DEEPSLATE.get()).build()))
                 .save(recipeConsumer,
-                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.WIP_ORE_DEEPSLATE.getId().getPath() + "_smelting"));
+                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath() + "_smelting"));
 
         //Blasting Recipes
         SimpleCookingRecipeBuilder.blasting(
-                Ingredient.of(ModBlocks.WIP_ORE.get()),
+                Ingredient.of(ModBlocks.ORE_WIP.get()),
                 ModItems.WIP_INGOT.get(),
                 3f, 180)
                 .unlockedBy("has_wip_ore", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModBlocks.WIP_ORE.get()).build()))
+                        .of(ModBlocks.ORE_WIP.get()).build()))
                 .save(recipeConsumer,
-                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.WIP_ORE.getId().getPath() + "_blasting"));
+                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.ORE_WIP.getId().getPath() + "_blasting"));
         SimpleCookingRecipeBuilder.blasting(
-                Ingredient.of(ModBlocks.WIP_ORE_DEEPSLATE.get()),
+                Ingredient.of(ModBlocks.ORE_WIP_DEEPSLATE.get()),
                 ModItems.WIP_INGOT.get(),
                 3f, 180)
                 .unlockedBy("has_wip_ore_deepslate", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModBlocks.WIP_ORE_DEEPSLATE.get()).build()))
+                        .of(ModBlocks.ORE_WIP_DEEPSLATE.get()).build()))
                 .save(recipeConsumer,
-                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.WIP_ORE_DEEPSLATE.getId().getPath() + "_blasting"));
+                        new ResourceLocation(Battlemage.MOD_ID, ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath() + "_blasting"));
     }
 }

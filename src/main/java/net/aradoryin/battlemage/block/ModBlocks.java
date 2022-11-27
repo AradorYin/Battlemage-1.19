@@ -29,11 +29,83 @@ public class ModBlocks
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
 	
 	//ORES | DEEPSLATE ORES
-	public static final RegistryObject<Block> WIP_ORE = registerBlock("wip_ore",
+	public static final RegistryObject<Block> ORE_WIP = registerBlock("ore_wip",
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
 					.strength(6f)
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
-	public static final RegistryObject<Block> WIP_ORE_DEEPSLATE = registerBlock("wip_ore_deepslate",
+	public static final RegistryObject<Block> ORE_WIP_DEEPSLATE = registerBlock("ore_wip_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_AMETHYST = registerBlock("ore_amethyst",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_AMETHYST_DEEPSLATE = registerBlock("ore_amethyst_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_CITRINE = registerBlock("ore_citrine",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_CITRINE_DEEPSLATE = registerBlock("ore_citrine_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_DIAMOND = registerBlock("ore_diamond",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_DIAMOND_DEEPSLATE = registerBlock("ore_diamond_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_EMERALD = registerBlock("ore_emerald",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_EMERALD_DEEPSLATE = registerBlock("ore_emerald_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_ONYX = registerBlock("ore_onyx",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_ONYX_DEEPSLATE = registerBlock("ore_onyx_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_OPAL = registerBlock("ore_opal",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_OPAL_DEEPSLATE = registerBlock("ore_opal_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_QUARTZ = registerBlock("ore_quartz",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_QUARTZ_DEEPSLATE = registerBlock("ore_quartz_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_RUBY = registerBlock("ore_ruby",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_RUBY_DEEPSLATE = registerBlock("ore_ruby_deepslate",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_SAPPHIRE = registerBlock("ore_sapphire",
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)
+					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
+	public static final RegistryObject<Block> ORE_SAPPHIRE_DEEPSLATE = registerBlock("ore_sapphire_deepslate",
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE)
 					.strength(6f)
 					.requiresCorrectToolForDrops()), ModCreativeModeTab.BATTLEMAGE_TAB);
