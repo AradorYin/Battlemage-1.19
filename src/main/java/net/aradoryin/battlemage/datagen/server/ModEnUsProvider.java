@@ -21,10 +21,21 @@ public class ModEnUsProvider extends LanguageProvider
         add(ModCreativeModeTab.BATTLEMAGE_TAB.getDisplayName().getString(), "Battlemage");
 
         //Items
+        //WIP ITEMS
         add(ModItems.WIP_INGOT.get(), "WIP Ingot");
         add(ModItems.WIP_RAW.get(), "WIP Raw");
-        //GEODES
         add(ModItems.GEODE_WIP.get(), "WIP Geode");
+        //GEMS UNCUT
+        add(ModItems.GEM_AMETHYST_UNCUT.get(), "Uncut Amethyst");
+        add(ModItems.GEM_CITRINE_UNCUT.get(), "Uncut Citrine");
+        add(ModItems.GEM_DIAMOND_UNCUT.get(), "Uncut Diamond");
+        add(ModItems.GEM_EMERALD_UNCUT.get(), "Uncut Emerald");
+        add(ModItems.GEM_ONYX_UNCUT.get(), "Uncut Onyx");
+        add(ModItems.GEM_OPAL_UNCUT.get(), "Uncut Opal");
+        add(ModItems.GEM_QUARTZ_UNCUT.get(), "Uncut Quartz");
+        add(ModItems.GEM_RUBY_UNCUT.get(), "Uncut Ruby");
+        add(ModItems.GEM_SAPPHIRE_UNCUT.get(), "Uncut Sapphire");
+        //GEODES
         add(ModItems.GEODE_AMETHYST.get(), "Amethyst Geode");
         add(ModItems.GEODE_CITRINE.get(), "Citrine Geode");
         add(ModItems.GEODE_DIAMOND.get(), "Diamond Geode");

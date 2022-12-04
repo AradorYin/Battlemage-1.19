@@ -17,6 +17,8 @@ import org.jetbrains.annotations.Nullable;
 
 public class ModItemTagsProvider extends ItemTagsProvider
 {
+    public static final TagKey<Item> MOD_GEMS_UNCUT = create("mod_gems_uncut");
+    public static final TagKey<Item> MOD_GEODES = create("mod_geodes");
     public static final TagKey<Item> MOD_ORES = create("mod_ores");
     public static final TagKey<Item> MOD_ORES_DEEPSLATE = create("mod_ores_deepslate");
 
@@ -30,6 +32,27 @@ public class ModItemTagsProvider extends ItemTagsProvider
     {
         tag(Tags.Items.INGOTS)
                 .add(ModItems.WIP_INGOT.get());
+        tag(ModItemTagsProvider.MOD_GEMS_UNCUT)
+                .add(ModItems.GEM_AMETHYST_UNCUT.get())
+                .add(ModItems.GEM_CITRINE_UNCUT.get())
+                .add(ModItems.GEM_DIAMOND_UNCUT.get())
+                .add(ModItems.GEM_EMERALD_UNCUT.get())
+                .add(ModItems.GEM_ONYX_UNCUT.get())
+                .add(ModItems.GEM_OPAL_UNCUT.get())
+                .add(ModItems.GEM_QUARTZ_UNCUT.get())
+                .add(ModItems.GEM_RUBY_UNCUT.get())
+                .add(ModItems.GEM_SAPPHIRE_UNCUT.get());
+        tag(ModItemTagsProvider.MOD_GEODES)
+                .add(ModItems.GEODE_WIP.get())
+                .add(ModItems.GEODE_AMETHYST.get())
+                .add(ModItems.GEODE_CITRINE.get())
+                .add(ModItems.GEODE_DIAMOND.get())
+                .add(ModItems.GEODE_EMERALD.get())
+                .add(ModItems.GEODE_ONYX.get())
+                .add(ModItems.GEODE_OPAL.get())
+                .add(ModItems.GEODE_QUARTZ.get())
+                .add(ModItems.GEODE_RUBY.get())
+                .add(ModItems.GEODE_SAPPHIRE.get());
         tag(ModItemTagsProvider.MOD_ORES)
                 .add(ModBlocks.ORE_WIP.get().asItem())
                 .add(ModBlocks.ORE_AMETHYST.get().asItem())

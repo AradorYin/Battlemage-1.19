@@ -25,6 +25,16 @@ public class ModItemModelProvider extends ItemModelProvider
         //Items
         simpleItemIngots(ModItems.WIP_INGOT);
         simpleItemRaw(ModItems.WIP_RAW);
+        //GEMS UNCUT
+        simpleItemGeode(ModItems.GEM_AMETHYST_UNCUT);
+        simpleItemGeode(ModItems.GEM_CITRINE_UNCUT);
+        simpleItemGeode(ModItems.GEM_DIAMOND_UNCUT);
+        simpleItemGeode(ModItems.GEM_EMERALD_UNCUT);
+        simpleItemGeode(ModItems.GEM_ONYX_UNCUT);
+        simpleItemGeode(ModItems.GEM_OPAL_UNCUT);
+        simpleItemGeode(ModItems.GEM_QUARTZ_UNCUT);
+        simpleItemGeode(ModItems.GEM_RUBY_UNCUT);
+        simpleItemGeode(ModItems.GEM_SAPPHIRE_UNCUT);
         //GEODES
         simpleItemGeode(ModItems.GEODE_WIP);
         simpleItemGeode(ModItems.GEODE_AMETHYST);

@@ -36,16 +36,135 @@ public class ModRecipeProvider extends RecipeProvider
                 ModBlocks.WIP_BLOCK.get());
 
         //Smelting Recipes
-        simpleCookingRecipe(recipeConsumer, ModBlocks.ORE_WIP.get(), ModItems.WIP_INGOT.get(), 2f, 200,
+        //WIP ORES
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_WIP.get(), ModItems.GEODE_WIP.get(), 2f, 200,
                 ModBlocks.ORE_WIP.getId().getPath());
-        simpleCookingRecipe(recipeConsumer, ModBlocks.ORE_WIP_DEEPSLATE.get(), ModItems.WIP_INGOT.get(), 2f, 200,
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_WIP_DEEPSLATE.get(), ModItems.GEODE_WIP.get(), 2f, 200,
                 ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_WIP.get(), ModItems.GEODE_WIP.get(), 2f, 200,
+                ModBlocks.ORE_WIP.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_WIP_DEEPSLATE.get(), ModItems.GEODE_WIP.get(), 2f, 200,
+                ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.WIP_INGOT.get(), 1f, 200,
+                ModItems.GEODE_WIP.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.WIP_INGOT.get(), 1f, 200,
+                ModItems.GEODE_WIP.getId().getPath());
+        //GEM ORES
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_AMETHYST.get(), ModItems.GEODE_AMETHYST.get(), 1f, 200,
+                ModBlocks.ORE_AMETHYST.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_CITRINE.get(), ModItems.GEODE_CITRINE.get(), 1f, 200,
+                ModBlocks.ORE_CITRINE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_DIAMOND.get(), ModItems.GEODE_DIAMOND.get(), 1f, 200,
+                ModBlocks.ORE_DIAMOND.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_EMERALD.get(), ModItems.GEODE_EMERALD.get(), 1f, 200,
+                ModBlocks.ORE_EMERALD.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_ONYX.get(), ModItems.GEODE_ONYX.get(), 1f, 200,
+                ModBlocks.ORE_ONYX.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_OPAL.get(), ModItems.GEODE_OPAL.get(), 1f, 200,
+                ModBlocks.ORE_OPAL.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_QUARTZ.get(), ModItems.GEODE_QUARTZ.get(), 1f, 200,
+                ModBlocks.ORE_QUARTZ.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_RUBY.get(), ModItems.GEODE_RUBY.get(), 1f, 200,
+                ModBlocks.ORE_RUBY.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_SAPPHIRE.get(), ModItems.GEODE_SAPPHIRE.get(), 1f, 200,
+                ModBlocks.ORE_SAPPHIRE.getId().getPath());
+        //GEM ORES DEEPSLATE VARIANT
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_AMETHYST_DEEPSLATE.get(), ModItems.GEODE_AMETHYST.get(), 1f, 200,
+                ModBlocks.ORE_AMETHYST_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_CITRINE_DEEPSLATE.get(), ModItems.GEODE_CITRINE.get(), 1f, 200,
+                ModBlocks.ORE_CITRINE_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_DIAMOND_DEEPSLATE.get(), ModItems.GEODE_DIAMOND.get(), 1f, 200,
+                ModBlocks.ORE_DIAMOND_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_EMERALD_DEEPSLATE.get(), ModItems.GEODE_EMERALD.get(), 1f, 200,
+                ModBlocks.ORE_EMERALD_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_ONYX_DEEPSLATE.get(), ModItems.GEODE_ONYX.get(), 1f, 200,
+                ModBlocks.ORE_ONYX_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_OPAL_DEEPSLATE.get(), ModItems.GEODE_OPAL.get(), 1f, 200,
+                ModBlocks.ORE_OPAL_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_QUARTZ_DEEPSLATE.get(), ModItems.GEODE_QUARTZ.get(), 1f, 200,
+                ModBlocks.ORE_QUARTZ_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_RUBY_DEEPSLATE.get(), ModItems.GEODE_RUBY.get(), 1f, 200,
+                ModBlocks.ORE_RUBY_DEEPSLATE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_SAPPHIRE_DEEPSLATE.get(), ModItems.GEODE_SAPPHIRE.get(), 1f, 200,
+                ModBlocks.ORE_SAPPHIRE_DEEPSLATE.getId().getPath());
+        //GEM GEODES
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_AMETHYST.get(), ModItems.GEM_AMETHYST_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_AMETHYST.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_CITRINE.get(), ModItems.GEM_CITRINE_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_CITRINE.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_DIAMOND.get(), ModItems.GEM_DIAMOND_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_DIAMOND.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_EMERALD.get(), ModItems.GEM_EMERALD_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_EMERALD.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_ONYX.get(), ModItems.GEM_ONYX_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_ONYX.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_OPAL.get(), ModItems.GEM_OPAL_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_OPAL.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_QUARTZ.get(), ModItems.GEM_QUARTZ_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_QUARTZ.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_RUBY.get(), ModItems.GEM_RUBY_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_RUBY.getId().getPath());
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_SAPPHIRE.get(), ModItems.GEM_SAPPHIRE_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_SAPPHIRE.getId().getPath());
 
         //Blasting Recipes
-        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_WIP.get(), ModItems.WIP_INGOT.get(), 3f, 180,
-                ModBlocks.ORE_WIP.getId().getPath());
-        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_WIP_DEEPSLATE.get(), ModItems.WIP_INGOT.get(), 3f, 180,
-                ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath());
+        //GEM ORE
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_AMETHYST.get(), ModItems.GEODE_AMETHYST.get(), 1f, 200,
+                ModBlocks.ORE_AMETHYST.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_CITRINE.get(), ModItems.GEODE_CITRINE.get(), 1f, 200,
+                ModBlocks.ORE_CITRINE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_DIAMOND.get(), ModItems.GEODE_DIAMOND.get(), 1f, 200,
+                ModBlocks.ORE_DIAMOND.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_EMERALD.get(), ModItems.GEODE_EMERALD.get(), 1f, 200,
+                ModBlocks.ORE_EMERALD.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_ONYX.get(), ModItems.GEODE_ONYX.get(), 1f, 200,
+                ModBlocks.ORE_ONYX.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_OPAL.get(), ModItems.GEODE_OPAL.get(), 1f, 200,
+                ModBlocks.ORE_OPAL.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_QUARTZ.get(), ModItems.GEODE_QUARTZ.get(), 1f, 200,
+                ModBlocks.ORE_QUARTZ.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_RUBY.get(), ModItems.GEODE_RUBY.get(), 1f, 200,
+                ModBlocks.ORE_RUBY.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_SAPPHIRE.get(), ModItems.GEODE_SAPPHIRE.get(), 1f, 200,
+                ModBlocks.ORE_SAPPHIRE.getId().getPath());
+        //GEM ORES DEEPSLATE VARIANT
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_AMETHYST_DEEPSLATE.get(), ModItems.GEODE_AMETHYST.get(), 1f, 200,
+                ModBlocks.ORE_AMETHYST_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_CITRINE_DEEPSLATE.get(), ModItems.GEODE_CITRINE.get(), 1f, 200,
+                ModBlocks.ORE_CITRINE_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_DIAMOND_DEEPSLATE.get(), ModItems.GEODE_DIAMOND.get(), 1f, 200,
+                ModBlocks.ORE_DIAMOND_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_EMERALD_DEEPSLATE.get(), ModItems.GEODE_EMERALD.get(), 1f, 200,
+                ModBlocks.ORE_EMERALD_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_ONYX_DEEPSLATE.get(), ModItems.GEODE_ONYX.get(), 1f, 200,
+                ModBlocks.ORE_ONYX_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_OPAL_DEEPSLATE.get(), ModItems.GEODE_OPAL.get(), 1f, 200,
+                ModBlocks.ORE_OPAL_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_QUARTZ_DEEPSLATE.get(), ModItems.GEODE_QUARTZ.get(), 1f, 200,
+                ModBlocks.ORE_QUARTZ_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_RUBY_DEEPSLATE.get(), ModItems.GEODE_RUBY.get(), 1f, 200,
+                ModBlocks.ORE_RUBY_DEEPSLATE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_SAPPHIRE_DEEPSLATE.get(), ModItems.GEODE_SAPPHIRE.get(), 1f, 200,
+                ModBlocks.ORE_SAPPHIRE_DEEPSLATE.getId().getPath());
+        //GEM GEODES
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_AMETHYST.get(), ModItems.GEM_AMETHYST_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_AMETHYST.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_CITRINE.get(), ModItems.GEM_CITRINE_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_CITRINE.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_DIAMOND.get(), ModItems.GEM_DIAMOND_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_DIAMOND.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_EMERALD.get(), ModItems.GEM_EMERALD_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_EMERALD.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_ONYX.get(), ModItems.GEM_ONYX_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_ONYX.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_OPAL.get(), ModItems.GEM_OPAL_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_OPAL.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_QUARTZ.get(), ModItems.GEM_QUARTZ_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_QUARTZ.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_RUBY.get(), ModItems.GEM_RUBY_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_RUBY.getId().getPath());
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_SAPPHIRE.get(), ModItems.GEM_SAPPHIRE_UNCUT.get(), 1f, 200,
+                ModItems.GEODE_SAPPHIRE.getId().getPath());
     }
 
     /**
@@ -80,7 +199,7 @@ public class ModRecipeProvider extends RecipeProvider
      * @param cookingTime 200
      * @param inputLocation ModBlocks.ORE_WIP.getId().getPath()
      */
-    private void simpleCookingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike input, ItemLike output, float experience, int cookingTime, String inputLocation)
+    private void simpleSmeltingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike input, ItemLike output, float experience, int cookingTime, String inputLocation)
     {
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(input), output, experience, cookingTime)
                 .unlockedBy("has_" + inputLocation, inventoryTrigger(ItemPredicate.Builder.item().of(input).build())).save(recipeConsumer,

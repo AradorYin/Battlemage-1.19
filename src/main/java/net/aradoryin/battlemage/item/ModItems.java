@@ -11,7 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems
 {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Battlemage.MOD_ID);
-	
+
+	//WIP ITEMS
 	public static final RegistryObject<Item> WIP_INGOT = ITEMS.register("wip_ingot",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 	public static final RegistryObject<Item> WIP_RAW = ITEMS.register("wip_raw",
@@ -19,6 +20,27 @@ public class ModItems
 	public static final RegistryObject<Item> GEODE_WIP = ITEMS.register("geode_wip",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 
+	//GEMS UNCUT
+	public static final RegistryObject<Item> GEM_AMETHYST_UNCUT = ITEMS.register("gem_amethyst_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_CITRINE_UNCUT = ITEMS.register("gem_citrine_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_DIAMOND_UNCUT = ITEMS.register("gem_diamond_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_EMERALD_UNCUT = ITEMS.register("gem_emerald_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_ONYX_UNCUT = ITEMS.register("gem_onyx_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_OPAL_UNCUT = ITEMS.register("gem_opal_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_QUARTZ_UNCUT = ITEMS.register("gem_quartz_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_RUBY_UNCUT = ITEMS.register("gem_ruby_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_SAPPHIRE_UNCUT = ITEMS.register("gem_sapphire_uncut",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+
+	//GEODES
 	public static final RegistryObject<Item> GEODE_AMETHYST = ITEMS.register("geode_amethyst",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 	public static final RegistryObject<Item> GEODE_CITRINE = ITEMS.register("geode_citrine",
@@ -37,7 +59,8 @@ public class ModItems
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 	public static final RegistryObject<Item> GEODE_SAPPHIRE = ITEMS.register("geode_sapphire",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
-	
+
+
 	public static void register(IEventBus eventBus)
 	{
 		ITEMS.register(eventBus);
