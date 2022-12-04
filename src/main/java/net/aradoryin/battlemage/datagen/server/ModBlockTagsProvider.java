@@ -26,6 +26,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
     @Override
     protected void addTags()
     {
+        tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
+                .addTag(MOD_ORES_DEEPSLATE);
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.WIP_BLOCK.get())
                 .addTag(MOD_ORES)
@@ -59,6 +61,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider
         tag(Tags.Blocks.ORES)
                 .addTag(MOD_ORES)
                 .addTag(MOD_ORES_DEEPSLATE);
+        tag(BlockTags.STONE_ORE_REPLACEABLES)
+                .addTag(MOD_ORES);
         tag(Tags.Blocks.STORAGE_BLOCKS)
                 .add(ModBlocks.WIP_BLOCK.get());
     }

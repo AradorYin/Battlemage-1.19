@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/AradorYin/Battlemage-1.19/issues"
 
 [[mods]]
 modId="battlemage"
-version="0.1.0-1.19"
+version="0.1.1-1.19"
 displayName="Battlemage"
 
 #updateJSONURL="https://change.me.example.invalid/updates.json"
