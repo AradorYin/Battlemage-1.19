@@ -44,11 +44,12 @@ public class Notes
         over time. With ice, that means freezing or slowing down enemies. (I think this affects Critical chance,
         which give you the status effects when you charge an attack.)
 	 Qualities:
-	 1. Common -> White
-	 2. Uncommon -> Green
-	 3. Rare -> Blue
-	 4. Epic -> Purple
-	 5. Legendary -> Orange
+	 1. Trash -> Gray
+	 2. Common -> White
+	 3. Uncommon -> Green
+	 4. Rare -> Blue
+	 5. Epic -> Purple
+	 6. Legendary -> Orange
     Quality Upgrades:
 	 1. 3X Common -> 1X Uncommon
 	 2. 3X Uncommon -> 1X Rare
@@ -66,7 +67,7 @@ public class Notes
         affect the outcome of my "magical workings"? What happens if I apply studs to the "bracer"? Maybe if the studs
         were made of metals, gems, a Nether Star I might get some beneficial effects to the elemental energies I choose
         to wield.
-    5. There are times, when I decide to not use this "bracer" for spells, that I am filled with random bits of
+    5. There are times, when I decide to not use this "bracer" for spells, that I am instead filled with random bits of
         information.
     6.
     Plants:

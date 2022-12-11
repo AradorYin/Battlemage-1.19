@@ -7,8 +7,8 @@ public class NotesItemsGems
     1. Amethyst:
         1. Raw Amethyst
         2. Uncut Amethyst
-        3. Trash Amethyst
-        4. Common Amethyst
+        3. Trash Amethyst - Round
+        4. Common Amethyst - Oval
             1. Corruption-Engraved Common Amethyst
             2. Delirium-Engraved Common Amethyst
             3. Earth-Engraved Common Amethyst
@@ -18,7 +18,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Common Amethyst
             8. Necromancy-Engraved Common Amethyst
             9. Phase-Engraved Common Amethyst
-        5. Uncommon Amethyst
+        5. Uncommon Amethyst - Pear
             1. Corruption-Engraved Uncommon Amethyst
             2. Delirium-Engraved Uncommon Amethyst
             3. Earth-Engraved Uncommon Amethyst
@@ -28,7 +28,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Amethyst
             8. Necromancy-Engraved Uncommon Amethyst
             9. Phase-Engraved Uncommon Amethyst
-        6. Rare Amethyst
+        6. Rare Amethyst - Emerald
             1. Corruption-Engraved Rare Amethyst
             2. Delirium-Engraved Rare Amethyst
             3. Earth-Engraved Rare Amethyst
@@ -38,7 +38,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Amethyst
             8. Necromancy-Engraved Rare Amethyst
             9. Phase-Engraved Rare Amethyst
-        7. Epic Amethyst
+        7. Epic Amethyst - Trillion
             1. Corruption-Engraved Epic Amethyst
             2. Delirium-Engraved Epic Amethyst
             3. Earth-Engraved Epic Amethyst
@@ -48,7 +48,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Amethyst
             8. Necromancy-Engraved Epic Amethyst
             9. Phase-Engraved Epic Amethyst
-        8. Legendary Amethyst
+        8. Legendary Amethyst - Cushion
             1. Corruption-Engraved Legendary Amethyst
             2. Delirium-Engraved Legendary Amethyst
             3. Earth-Engraved Legendary Amethyst
@@ -61,8 +61,8 @@ public class NotesItemsGems
     2. Citrine
         1. Raw Citrine
         2. Uncut Citrine
-        3. Trash Citrine
-        3. Common Citrine
+        3. Trash Citrine - Round
+        3. Common Citrine - Oval
             1. Corruption-Engraved Uncommon Citrine
             2. Delirium-Engraved Uncommon Citrine
             3. Earth-Engraved Uncommon Citrine
@@ -72,7 +72,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Citrine
             8. Necromancy-Engraved Uncommon Citrine
             9. Phase-Engraved Uncommon Citrine
-        4. Uncommon Citrine
+        4. Uncommon Citrine - Pear
             1. Corruption-Engraved Uncommon Citrine
             2. Delirium-Engraved Uncommon Citrine
             3. Earth-Engraved Uncommon Citrine
@@ -82,7 +82,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Citrine
             8. Necromancy-Engraved Uncommon Citrine
             9. Phase-Engraved Uncommon Citrine
-        5. Rare Citrine
+        5. Rare Citrine - Emerald
             1. Corruption-Engraved Rare Citrine
             2. Delirium-Engraved Rare Citrine
             3. Earth-Engraved Rare Citrine
@@ -92,7 +92,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Citrine
             8. Necromancy-Engraved Rare Citrine
             9. Phase-Engraved Rare Citrine
-        6. Epic Citrine
+        6. Epic Citrine - Trillion
             1. Corruption-Engraved Epic Citrine
             2. Delirium-Engraved Epic Citrine
             3. Earth-Engraved Epic Citrine
@@ -102,7 +102,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Citrine
             8. Necromancy-Engraved Epic Citrine
             9. Phase-Engraved Epic Citrine
-        7. Legendary Citrine
+        7. Legendary Citrine - Cushion
             1. Corruption-Engraved Legendary Citrine
             2. Delirium-Engraved Legendary Citrine
             3. Earth-Engraved Legendary Citrine
@@ -115,8 +115,8 @@ public class NotesItemsGems
     3. Diamond
         1. Raw Diamond
         2. Uncut Diamond
-        3. Trash Diamond
-        3. Common Diamond
+        3. Trash Diamond - Round
+        3. Common Diamond - Oval
             1. Corruption-Engraved Uncommon Diamond
             2. Delirium-Engraved Uncommon Diamond
             3. Earth-Engraved Uncommon Diamond
@@ -126,7 +126,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Diamond
             8. Necromancy-Engraved Uncommon Diamond
             9. Phase-Engraved Uncommon Diamond
-        4. Uncommon Diamond
+        4. Uncommon Diamond - Pear
             1. Corruption-Engraved Uncommon Diamond
             2. Delirium-Engraved Uncommon Diamond
             3. Earth-Engraved Uncommon Diamond
@@ -136,7 +136,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Diamond
             8. Necromancy-Engraved Uncommon Diamond
             9. Phase-Engraved Uncommon Diamond
-        5. Rare Diamond
+        5. Rare Diamond - Emerald
             1. Corruption-Engraved Rare Diamond
             2. Delirium-Engraved Rare Diamond
             3. Earth-Engraved Rare Diamond
@@ -146,7 +146,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Diamond
             8. Necromancy-Engraved Rare Diamond
             9. Phase-Engraved Rare Diamond
-        6. Epic Diamond
+        6. Epic Diamond - Trillion
             1. Corruption-Engraved Epic Diamond
             2. Delirium-Engraved Epic Diamond
             3. Earth-Engraved Epic Diamond
@@ -156,7 +156,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Diamond
             8. Necromancy-Engraved Epic Diamond
             9. Phase-Engraved Epic Diamond
-        7. Legendary Diamond
+        7. Legendary Diamond - Cushion
             1. Corruption-Engraved Legendary Diamond
             2. Delirium-Engraved Legendary Diamond
             3. Earth-Engraved Legendary Diamond
@@ -169,8 +169,8 @@ public class NotesItemsGems
     4. Emerald
         1. Raw Emerald
         2. Uncut Emerald
-        3. Trash Emerald
-        3. Common Emerald
+        3. Trash Emerald - Round
+        3. Common Emerald - Oval
             1. Corruption-Engraved Uncommon Emerald
             2. Delirium-Engraved Uncommon Emerald
             3. Earth-Engraved Uncommon Emerald
@@ -180,7 +180,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Emerald
             8. Necromancy-Engraved Uncommon Emerald
             9. Phase-Engraved Uncommon Emerald
-        4. Uncommon Emerald
+        4. Uncommon Emerald - Pear
             1. Corruption-Engraved Uncommon Emerald
             2. Delirium-Engraved Uncommon Emerald
             3. Earth-Engraved Uncommon Emerald
@@ -190,7 +190,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Emerald
             8. Necromancy-Engraved Uncommon Emerald
             9. Phase-Engraved Uncommon Emerald
-        5. Rare Emerald
+        5. Rare Emerald - Emerald
             1. Corruption-Engraved Rare Emerald
             2. Delirium-Engraved Rare Emerald
             3. Earth-Engraved Rare Emerald
@@ -200,7 +200,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Emerald
             8. Necromancy-Engraved Rare Emerald
             9. Phase-Engraved Rare Emerald
-        6. Epic Emerald
+        6. Epic Emerald - Trillion
             1. Corruption-Engraved Epic Emerald
             2. Delirium-Engraved Epic Emerald
             3. Earth-Engraved Epic Emerald
@@ -210,7 +210,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Emerald
             8. Necromancy-Engraved Epic Emerald
             9. Phase-Engraved Epic Emerald
-        7. Legendary Emerald
+        7. Legendary Emerald - Cushion
             1. Corruption-Engraved Legendary Emerald
             2. Delirium-Engraved Legendary Emerald
             3. Earth-Engraved Legendary Emerald
@@ -223,8 +223,8 @@ public class NotesItemsGems
     5. Onyx
         1. Raw Onyx
         2. Uncut Onyx
-        3. Trash Onyx
-        3. Common Onyx
+        3. Trash Onyx - Round
+        3. Common Onyx - Oval
             1. Corruption-Engraved Uncommon Onyx
             2. Delirium-Engraved Uncommon Onyx
             3. Earth-Engraved Uncommon Onyx
@@ -234,7 +234,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Onyx
             8. Necromancy-Engraved Uncommon Onyx
             9. Phase-Engraved Uncommon Onyx
-        4. Uncommon Onyx
+        4. Uncommon Onyx - Pear
             1. Corruption-Engraved Uncommon Onyx
             2. Delirium-Engraved Uncommon Onyx
             3. Earth-Engraved Uncommon Onyx
@@ -244,7 +244,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Onyx
             8. Necromancy-Engraved Uncommon Onyx
             9. Phase-Engraved Uncommon Onyx
-        5. Rare Onyx
+        5. Rare Onyx - Emerald
             1. Corruption-Engraved Rare Onyx
             2. Delirium-Engraved Rare Onyx
             3. Earth-Engraved Rare Onyx
@@ -254,7 +254,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Onyx
             8. Necromancy-Engraved Rare Onyx
             9. Phase-Engraved Rare Onyx
-        6. Epic Onyx
+        6. Epic Onyx - Trillion
             1. Corruption-Engraved Epic Onyx
             2. Delirium-Engraved Epic Onyx
             3. Earth-Engraved Epic Onyx
@@ -264,7 +264,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Onyx
             8. Necromancy-Engraved Epic Onyx
             9. Phase-Engraved Epic Onyx
-        7. Legendary Onyx
+        7. Legendary Onyx - Cushion
             1. Corruption-Engraved Legendary Onyx
             2. Delirium-Engraved Legendary Onyx
             3. Earth-Engraved Legendary Onyx
@@ -277,8 +277,8 @@ public class NotesItemsGems
     6. Opal
         1. Raw Opal
         2. Uncut Opal
-        3. Trash Opal
-        3. Common Opal
+        3. Trash Opal - Round
+        3. Common Opal - Oval
             1. Corruption-Engraved Uncommon Opal
             2. Delirium-Engraved Uncommon Opal
             3. Earth-Engraved Uncommon Opal
@@ -288,7 +288,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Opal
             8. Necromancy-Engraved Uncommon Opal
             9. Phase-Engraved Uncommon Opal
-        4. Uncommon Opal
+        4. Uncommon Opal - Pear
             1. Corruption-Engraved Uncommon Opal
             2. Delirium-Engraved Uncommon Opal
             3. Earth-Engraved Uncommon Opal
@@ -298,7 +298,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Opal
             8. Necromancy-Engraved Uncommon Opal
             9. Phase-Engraved Uncommon Opal
-        5. Rare Opal
+        5. Rare Opal - Emerald
             1. Corruption-Engraved Rare Opal
             2. Delirium-Engraved Rare Opal
             3. Earth-Engraved Rare Opal
@@ -308,7 +308,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Opal
             8. Necromancy-Engraved Rare Opal
             9. Phase-Engraved Rare Opal
-        6. Epic Opal
+        6. Epic Opal - Trillion
             1. Corruption-Engraved Epic Opal
             2. Delirium-Engraved Epic Opal
             3. Earth-Engraved Epic Opal
@@ -318,7 +318,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Opal
             8. Necromancy-Engraved Epic Opal
             9. Phase-Engraved Epic Opal
-        7. Legendary Opal
+        7. Legendary Opal - Cushion
             1. Corruption-Engraved Legendary Opal
             2. Delirium-Engraved Legendary Opal
             3. Earth-Engraved Legendary Opal
@@ -331,8 +331,8 @@ public class NotesItemsGems
     7. Quartz
         1. Raw Quartz
         2. Uncut Quartz
-        3. Trash Quartz
-        3. Common Quartz
+        3. Trash Quartz - Round
+        3. Common Quartz - Oval
             1. Corruption-Engraved Uncommon Quartz
             2. Delirium-Engraved Uncommon Quartz
             3. Earth-Engraved Uncommon Quartz
@@ -342,7 +342,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Quartz
             8. Necromancy-Engraved Uncommon Quartz
             9. Phase-Engraved Uncommon Quartz
-        4. Uncommon Quartz
+        4. Uncommon Quartz - Pear
             1. Corruption-Engraved Uncommon Quartz
             2. Delirium-Engraved Uncommon Quartz
             3. Earth-Engraved Uncommon Quartz
@@ -352,7 +352,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Quartz
             8. Necromancy-Engraved Uncommon Quartz
             9. Phase-Engraved Uncommon Quartz
-        5. Rare Quartz
+        5. Rare Quartz - Emerald
             1. Corruption-Engraved Rare Quartz
             2. Delirium-Engraved Rare Quartz
             3. Earth-Engraved Rare Quartz
@@ -362,7 +362,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Quartz
             8. Necromancy-Engraved Rare Quartz
             9. Phase-Engraved Rare Quartz
-        6. Epic Quartz
+        6. Epic Quartz - Trillion
             1. Corruption-Engraved Epic Quartz
             2. Delirium-Engraved Epic Quartz
             3. Earth-Engraved Epic Quartz
@@ -372,7 +372,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Quartz
             8. Necromancy-Engraved Epic Quartz
             9. Phase-Engraved Epic Quartz
-        7. Legendary Quartz
+        7. Legendary Quartz - Cushion
             1. Corruption-Engraved Legendary Quartz
             2. Delirium-Engraved Legendary Quartz
             3. Earth-Engraved Legendary Quartz
@@ -385,8 +385,8 @@ public class NotesItemsGems
     8. Ruby
         1. Raw Ruby
         2. Uncut Ruby
-        3. Trash Ruby
-        3. Common Ruby
+        3. Trash Ruby - Round
+        3. Common Ruby - Oval
             1. Corruption-Engraved Uncommon Ruby
             2. Delirium-Engraved Uncommon Ruby
             3. Earth-Engraved Uncommon Ruby
@@ -396,7 +396,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Ruby
             8. Necromancy-Engraved Uncommon Ruby
             9. Phase-Engraved Uncommon Ruby
-        4. Uncommon Ruby
+        4. Uncommon Ruby - Pear
             1. Corruption-Engraved Uncommon Ruby
             2. Delirium-Engraved Uncommon Ruby
             3. Earth-Engraved Uncommon Ruby
@@ -406,7 +406,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Ruby
             8. Necromancy-Engraved Uncommon Ruby
             9. Phase-Engraved Uncommon Ruby
-        5. Rare Ruby
+        5. Rare Ruby - Emerald
             1. Corruption-Engraved Rare Ruby
             2. Delirium-Engraved Rare Ruby
             3. Earth-Engraved Rare Ruby
@@ -416,7 +416,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Ruby
             8. Necromancy-Engraved Rare Ruby
             9. Phase-Engraved Rare Ruby
-        6. Epic Ruby
+        6. Epic Ruby - Trillion
             1. Corruption-Engraved Epic Ruby
             2. Delirium-Engraved Epic Ruby
             3. Earth-Engraved Epic Ruby
@@ -426,7 +426,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Ruby
             8. Necromancy-Engraved Epic Ruby
             9. Phase-Engraved Epic Ruby
-        7. Legendary Ruby
+        7. Legendary Ruby - Cushion
             1. Corruption-Engraved Legendary Ruby
             2. Delirium-Engraved Legendary Ruby
             3. Earth-Engraved Legendary Ruby
@@ -439,8 +439,8 @@ public class NotesItemsGems
     9. Sapphire
         1. Raw Sapphire
         2. Uncut Sapphire
-        3. Trash Sapphire
-        3. Common Sapphire
+        3. Trash Sapphire - Round
+        3. Common Sapphire - Oval
             1. Corruption-Engraved Uncommon Sapphire
             2. Delirium-Engraved Uncommon Sapphire
             3. Earth-Engraved Uncommon Sapphire
@@ -450,7 +450,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Sapphire
             8. Necromancy-Engraved Uncommon Sapphire
             9. Phase-Engraved Uncommon Sapphire
-        4. Uncommon Sapphire
+        4. Uncommon Sapphire - Pear
             1. Corruption-Engraved Uncommon Sapphire
             2. Delirium-Engraved Uncommon Sapphire
             3. Earth-Engraved Uncommon Sapphire
@@ -460,7 +460,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Uncommon Sapphire
             8. Necromancy-Engraved Uncommon Sapphire
             9. Phase-Engraved Uncommon Sapphire
-        5. Rare Sapphire
+        5. Rare Sapphire - Emerald
             1. Corruption-Engraved Rare Sapphire
             2. Delirium-Engraved Rare Sapphire
             3. Earth-Engraved Rare Sapphire
@@ -470,7 +470,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Rare Sapphire
             8. Necromancy-Engraved Rare Sapphire
             9. Phase-Engraved Rare Sapphire
-        6. Epic Sapphire
+        6. Epic Sapphire - Trillion
             1. Corruption-Engraved Epic Sapphire
             2. Delirium-Engraved Epic Sapphire
             3. Earth-Engraved Epic Sapphire
@@ -480,7 +480,7 @@ public class NotesItemsGems
             7. Lightning-Engraved Epic Sapphire
             8. Necromancy-Engraved Epic Sapphire
             9. Phase-Engraved Epic Sapphire
-        7. Legendary Sapphire
+        7. Legendary Sapphire - Cushion
             1. Corruption-Engraved Legendary Sapphire
             2. Delirium-Engraved Legendary Sapphire
             3. Earth-Engraved Legendary Sapphire
