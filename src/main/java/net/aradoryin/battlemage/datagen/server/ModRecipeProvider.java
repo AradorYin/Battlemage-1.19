@@ -30,10 +30,23 @@ public class ModRecipeProvider extends RecipeProvider
     {
         //Shaped Recipes
         storageBlockRecipe(recipeConsumer, ModItems.WIP_INGOT.get(), ModBlocks.WIP_BLOCK.get(), ModBlocks.WIP_BLOCK.getId().getPath());
+        ShapedRecipeBuilder.shaped(ModItems.BRACER_INITIAL.get(), 1)
+                .define('L', Items.LEATHER)
+                .define('S', Items.STRING)
+                .pattern("SLS")
+                .pattern("L L")
+                .pattern("SLS")
+                .unlockedBy("has_" + Items.LEATHER, inventoryTrigger(ItemPredicate.Builder.item().of(Items.LEATHER).build()))
+                .unlockedBy("has_" + Items.STRING, inventoryTrigger(ItemPredicate.Builder.item().of(Items.STRING).build()))
+                .save(recipeConsumer, new ResourceLocation(Battlemage.MOD_ID, ModItems.BRACER_INITIAL.getId().getPath()));
 
         //Shapeless Recipes
         shapelessRecipe(recipeConsumer, ModItems.WIP_INGOT.get(), 9, ModItems.WIP_INGOT.getId().getPath(),
                 ModBlocks.WIP_BLOCK.get());
+        //Diamond/Emerald/Quartz mod variant -> Vanilla variant
+        shapelessRecipe(recipeConsumer, Items.DIAMOND, 1, Items.DIAMOND.toString(), ModItems.GEM_DIAMOND_UNCUT.get());
+        shapelessRecipe(recipeConsumer, Items.EMERALD, 1, Items.EMERALD.toString(), ModItems.GEM_EMERALD_UNCUT.get());
+        shapelessRecipe(recipeConsumer, Items.QUARTZ, 1, Items.QUARTZ.toString(), ModItems.GEM_QUARTZ_UNCUT.get());
 
         //Smelting Recipes
         //WIP ORES
@@ -45,9 +58,9 @@ public class ModRecipeProvider extends RecipeProvider
                 ModBlocks.ORE_WIP.getId().getPath());
         simpleBlastingRecipe(recipeConsumer, ModBlocks.ORE_WIP_DEEPSLATE.get(), ModItems.GEODE_WIP.get(), 2f, 200,
                 ModBlocks.ORE_WIP_DEEPSLATE.getId().getPath());
-        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.WIP_INGOT.get(), 1f, 200,
+        simpleSmeltingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.GEM_WIP_UNCUT.get(), 1f, 200,
                 ModItems.GEODE_WIP.getId().getPath());
-        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.WIP_INGOT.get(), 1f, 200,
+        simpleBlastingRecipe(recipeConsumer, ModItems.GEODE_WIP.get(), ModItems.GEM_WIP_UNCUT.get(), 1f, 200,
                 ModItems.GEODE_WIP.getId().getPath());
         //GEM ORES
         simpleSmeltingRecipe(recipeConsumer, ModBlocks.ORE_AMETHYST.get(), ModItems.GEODE_AMETHYST.get(), 1f, 200,
@@ -207,7 +220,7 @@ public class ModRecipeProvider extends RecipeProvider
     }
 
     /**
-     * This method is used to create smelting recipes using only 1-2 lines (depending on spacing). It takes a Recipe Consumer
+     * This method is used to create shapeless recipes using only 1-2 lines (depending on spacing). It takes a Recipe Consumer
      * in the form of recipeConsumer, an ItemLike output which is used to identify the output, String inputLocation for use in the
      * unlockedBy and ResourceLocation, an outputAmount for the whole integer value that is the amount to be outputted, and a
      * variable length ItemLike arguments array to store the inputs. The format to use is as follows:
@@ -242,7 +255,6 @@ public class ModRecipeProvider extends RecipeProvider
                         .save(recipeConsumer, new ResourceLocation(Battlemage.MOD_ID, outputLocation));
                 break;
             default:
-                break;
         }
     }
     /**

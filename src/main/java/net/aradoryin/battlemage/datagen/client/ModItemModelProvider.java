@@ -26,15 +26,16 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItemIngots(ModItems.WIP_INGOT);
         simpleItemRaw(ModItems.WIP_RAW);
         //GEMS UNCUT
-        simpleItemGeode(ModItems.GEM_AMETHYST_UNCUT);
-        simpleItemGeode(ModItems.GEM_CITRINE_UNCUT);
-        simpleItemGeode(ModItems.GEM_DIAMOND_UNCUT);
-        simpleItemGeode(ModItems.GEM_EMERALD_UNCUT);
-        simpleItemGeode(ModItems.GEM_ONYX_UNCUT);
-        simpleItemGeode(ModItems.GEM_OPAL_UNCUT);
-        simpleItemGeode(ModItems.GEM_QUARTZ_UNCUT);
-        simpleItemGeode(ModItems.GEM_RUBY_UNCUT);
-        simpleItemGeode(ModItems.GEM_SAPPHIRE_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_WIP_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_AMETHYST_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_CITRINE_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_DIAMOND_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_EMERALD_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_ONYX_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_OPAL_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_QUARTZ_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_RUBY_UNCUT);
+        simpleItemGemUncut(ModItems.GEM_SAPPHIRE_UNCUT);
         //GEODES
         simpleItemGeode(ModItems.GEODE_WIP);
         simpleItemGeode(ModItems.GEODE_AMETHYST);
@@ -62,6 +63,22 @@ public class ModItemModelProvider extends ItemModelProvider
             return withExistingParent(item.getId().getPath(),
                     new ResourceLocation("item/generated")).texture("layer0",
                     new ResourceLocation(Battlemage.MOD_ID, "item/" + ModItems.GEODE_WIP.getId().getPath()));
+        }
+    }
+    private ItemModelBuilder simpleItemGemUncut(RegistryObject<Item> item)
+    {
+        try
+        {
+            return withExistingParent(item.getId().getPath(),
+                    new ResourceLocation("item/generated")).texture("layer0",
+                    new ResourceLocation(Battlemage.MOD_ID, "item/" + item.getId().getPath()));
+        }
+        catch (Exception e)
+        {
+            System.out.println(e);
+            return withExistingParent(item.getId().getPath(),
+                    new ResourceLocation("item/generated")).texture("layer0",
+                    new ResourceLocation(Battlemage.MOD_ID, "item/" + ModItems.GEM_WIP_UNCUT.getId().getPath()));
         }
     }
 

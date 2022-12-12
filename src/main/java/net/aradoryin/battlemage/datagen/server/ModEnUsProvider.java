@@ -21,9 +21,14 @@ public class ModEnUsProvider extends LanguageProvider
         add(ModCreativeModeTab.BATTLEMAGE_TAB.getDisplayName().getString(), "Battlemage");
 
         //Items
+        //BRACER
+        add(ModItems.BRACER_INITIAL.get(), "Patchwork Bracer");
+        add(ModItems.BRACER_UPGRADE.get(), "Bracer");
+        add(ModItems.BRACER_MAX.get(), "Bracer");
         //WIP ITEMS
         add(ModItems.WIP_INGOT.get(), "WIP Ingot");
         add(ModItems.WIP_RAW.get(), "WIP Raw");
+        add(ModItems.GEM_WIP_UNCUT.get(), "Uncut WIP Gem");
         add(ModItems.GEODE_WIP.get(), "WIP Geode");
         //GEMS UNCUT
         add(ModItems.GEM_AMETHYST_UNCUT.get(), "Uncut Amethyst");

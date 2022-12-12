@@ -2,6 +2,7 @@ package net.aradoryin.battlemage.item;
 
 import net.aradoryin.battlemage.Battlemage;
 import net.aradoryin.battlemage.ModCreativeModeTab;
+import net.aradoryin.battlemage.item.custom.BracerItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,10 +13,20 @@ public class ModItems
 {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Battlemage.MOD_ID);
 
+	//BRACER
+	public static final RegistryObject<Item> BRACER_INITIAL = ITEMS.register("bracer_initial",
+			()-> new BracerItem(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB).stacksTo(1)));
+	public static final RegistryObject<Item> BRACER_UPGRADE = ITEMS.register("bracer_upgrade",
+			()-> new BracerItem(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB).stacksTo(1)));
+	public static final RegistryObject<Item> BRACER_MAX = ITEMS.register("bracer_max",
+			()-> new BracerItem(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB).stacksTo(1)));
+
 	//WIP ITEMS
 	public static final RegistryObject<Item> WIP_INGOT = ITEMS.register("wip_ingot",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 	public static final RegistryObject<Item> WIP_RAW = ITEMS.register("wip_raw",
+			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
+	public static final RegistryObject<Item> GEM_WIP_UNCUT = ITEMS.register("gem_wip_uncut",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));
 	public static final RegistryObject<Item> GEODE_WIP = ITEMS.register("geode_wip",
 			()-> new Item(new Item.Properties().tab(ModCreativeModeTab.BATTLEMAGE_TAB)));

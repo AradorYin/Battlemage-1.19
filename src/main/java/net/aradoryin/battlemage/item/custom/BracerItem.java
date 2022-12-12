@@ -20,8 +20,9 @@ public class BracerItem extends Item
         if(!level.isClientSide && hand == InteractionHand.MAIN_HAND)
         {
             /*
-
+            Cooldown
              */
+            player.getCooldowns().addCooldown(this, 20); // Item | int number of ticks
         }
 
         return super.use(level, player, hand);
