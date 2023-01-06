@@ -103,5 +103,10 @@ public class Notes
 	 and 1x Uncommon Barrier Shape, you can get either a Rare Shape or a Rare Augment.
 
 	 You can also synthesize a Spell (that's been crafted), an Augment and a Shape - but you'll get a random item.
+
+----------------------------
+particle system will need to be figured out. maybe create a helper particle class as a base from which to expand upon for the Shield, Ray, Targeted Lob, Targeted Normal, AoE, Pool, Trap. maybe have the class take in a particle texture, double radius or double diameter with a method overload adding in a double duration.
+
+might be able to cheat and use the tnt particles to use for the center of the AoE Particle class. but will need the circular outline showing the area of effect.
      */
 }
